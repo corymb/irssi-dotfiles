@@ -288,6 +288,7 @@ settings = {
   "fe-text" = { actlist_sort = "refnum"; };
 };
 ignores = (
-  { mask = "JOINS"; level = "PARTS QUITS MODES TOPICS"; },
-  { level = "ALL"; }
+  {
+    level = "CRAP MSGS NOTICES SNOTES CTCPS JOINS PARTS QUITS KICKS MODES TOPICS WALLOPS INVITES NICKS DCC DCCMSGS CLIENTNOTICES CLIENTCRAP CLIENTERRORS HILIGHTS";
+  }
 );
