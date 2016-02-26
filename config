@@ -23,11 +23,19 @@ chatnets = {
 channels = (
   { name = "#python"; chatnet = "Freenode"; autojoin = "yes"; },
   { name = "#django"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#python-offtopic"; chatnet = "Freenode"; autojoin = "yes"; },
+  { 
+    name = "#python-offtopic";
+    chatnet = "Freenode";
+    autojoin = "yes";
+  },
   { name = "#django-dev"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#python-friendly"; chatnet = "Freenode"; autojoin = "yes"; },
+  { 
+    name = "#python-friendly";
+    chatnet = "Freenode";
+    autojoin = "yes";
+  },
   { name = "#vim"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#clojure"; chatnet = "Freenode"; autojoin = "yes"; },
+  { name = "#clojure"; chatnet = "Freenode"; autojoin = "yes"; }
 );
 
 aliases = {
