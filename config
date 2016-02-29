@@ -27,8 +27,8 @@ channels = (
     chatnet = "Freenode";
     autojoin = "yes";
   },
+  { name = "#rubyonrails"; chatnet = "Freenode"; autojoin = "yes"; }
   { name = "#clojure"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#lesswrong"; chatnet = "Freenode"; autojoin = "yes"; }
 );
 
 aliases = {
@@ -284,7 +284,7 @@ statusbar = {
   };
 };
 settings = {
-  core = { real_name = "Dave"; user_name = "dave"; nick = "pydave6367"; };
+  core = { real_name = "Dave"; user_name = "dave"; nick = "Disavowed"; };
   "fe-text" = { actlist_sort = "refnum"; };
 };
 ignores = (
